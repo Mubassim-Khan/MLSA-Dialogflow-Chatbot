@@ -27,24 +27,24 @@ app.post("/dialogflow", async (req, res) => {
             "richContent": [
               [
                 {
+                  "type": "chips",
                   "options": [
                     {
-                      "text": "Dr. Issa Nagari"
+                      "text": "What's in menu?"
                     },
                     {
-                      "text": "Prof. Amir"
+                      "text": "What is your location?"
                     },
                     {
-                      "text": "Dr. Jhon patrick"
+                      "text": "What is your special food?"
                     },
                     {
-                      "text": "Sara kirchoff"
+                      "text": "Today's deal ?"
                     },
                     {
-                      "text": "location"
+                      "text": "Reservation"
                     }
-                  ],
-                  "type": "chips"
+                  ]
                 }
               ]
             ]
